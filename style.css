@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(95, 95, 95);
+}
+header{
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: rgb(63, 120, 5);
+        width: 800px;
+}
+.menu-nave{
+    text-align: center;
+    font-size: 25px;
+}
+.menu-nave > a{
+    text-decoration: none;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: white 0.5px 0.5px;
+}
+.menu-nave > a:hover{
+    background-color: rgb(48, 92, 4);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+/* Conteudo */
+
+section {
+    width: 800px;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+article > h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    text-shadow: black 1px 1px;
+}
+article > img {
+    width: 800px;
+}
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 15px;
+    text-shadow: black 1px;
+}
+/* Rodapé */
+footer {
+    width: 800px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    color: rgba(48, 46, 46, 0.685);
+}
+
+/*Pagina Games*/
+section > h1 {
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jogo > img {
+    width: 300px;
+    height: 250px;
+}
+.jogo{
+    width: 380px;
+    height: 200px;
+    border: thin rgb(48, 92, 4) solid;
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-table;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jogo > p {
+    text-align: justify;
+    padding: 2px;
+}
+.jogo > h2{
+    padding: 3px;
+}
+/*Pagina Contato*/
+form {
+    width: 800px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+}
+fieldset {
+    border: rgb(48, 92, 4) solid 1px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 6px;
+    text-shadow: rgba(48, 46, 46, 0.685) 1px 1px;
+}
+legend {
+    text-align: center;
+    padding: 5px;
+}
+input[type="submit"],input[type="reset"] {
+    font-size: 20px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 2px;
+ 
+}
+input[type="submit"]:hover{
+    background-color: rgb(54, 179, 54);
+    color: white;
+    cursor: pointer;
+}
+input[type="reset"]:hover{
+    background-color: rgb(216, 49, 49);
+    color: white;
+    cursor: pointer;
+}
