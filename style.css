@@ -106,10 +106,12 @@ fieldset {
     font-size: 22px;
     padding: 6px;
     text-shadow: rgba(48, 46, 46, 0.685) 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 legend {
     text-align: center;
     padding: 5px;
+     font-family: Arial, Helvetica, sans-serif;
 }
 input[type="submit"],input[type="reset"] {
     font-size: 20px;
